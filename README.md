@@ -1,1 +1,1 @@
-# javascriptWeatherApp
+# Weather App
