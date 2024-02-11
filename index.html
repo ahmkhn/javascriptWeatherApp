@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class="main">
         <input type="text" name="weatherText" id="weatherText"/>
         <button type="submit" onclick="submit()">Submit</button>
     </div>
-    <div class="output" style="display: block;">
-        <h2>Country:</h2>
-        <h2>City:</h2>
-        <h2>Condition:</h2>
-        <h2>Temperature:</h2>
-        <h2>Humidity:</h2>
-        <h2>AQI:</h2>
+    <div class="output" style="display: none;" id="outputJr">
+        <h2 id="country"></h2>
+        <h2 id="city"></h2>
+        <h2 id="region"></h2>
+        <h2 id="condition"></h2>
+        <h2 id="temperature"></h2>
+        <h2 id="humidity"></h2>
+        <h2 id="aqi"></h2>
     </div>
 </body>
 </html>
